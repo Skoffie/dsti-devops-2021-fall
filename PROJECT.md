@@ -2,15 +2,17 @@
 
 ## Deadline
 
-June 30, 2021
+TBA
 
 ## Opportunities
 
 1. The DevOps project is based on all of the labs passed during the course, it is allowed to use them.
 
-2. Work on the project can be carried out by 1 student.
+2. The project must be authored by 1 student.
 
-3. You are allowed to collaborate with other students.
+3. You are allowed to collaborate with other students to consult.
+
+4. A backbone for an application is proposed, but you can make your application from scratch. However, be careful to integrate all the steps we will see in the class.
 
 ## Instructions
 
@@ -26,15 +28,15 @@ Create a web application on any programming language (NodeJS, Java, Ruby, Python
 
 **Note!** You are allowed to use the draft application located in the [modules/04.ct-ci-cd/assets/userapi](modules/04.ct-ci-cd/assets/userapi) folder, but you have to enrich it by at least completing all comment sections marked "TODO".
 
-### 2. Apply CI/CD pipeline 
+### 2. Apply CI/CD pipeline
 
 Configure and apply CI/CD (including deployment) pipeline using any platforms (GitHub Actions, GitLab CI/CD, Jenkins, Netlify, Heroku, etc.).
 
-**Note!** If the chosen deployment platform (like Heroku) requires a subscription to make use of their database service to connect to your app, you can skip using this service. In this case, your application won't be running properly, but it must successfully display the homepage. 
+**Note!** If the chosen deployment platform (like Heroku) requires a subscription to make use of their database service to connect to your app, you can skip using this service. In this case, your application won't be running properly, but it must successfully display the homepage.
 
 ### 3. Configure and provision a virtual environment and run your application using the IaC approach
 
-1. Configure with Vagrant: 1 VM running on any Linux distribution 
+1. Configure with Vagrant: 1 VM running on any Linux distribution
 2. Provision the VM with Ansible, which includes installing and running:
   - language runtime
   - database
@@ -66,7 +68,7 @@ Configure and apply CI/CD (including deployment) pipeline using any platforms (G
 2. Create configuration:
   - route requests between 2 different versions of your app
   - traffic shifting between 2 different versions of your app
-  
+
 ### 8. Implement Monitoring to your containerized application
 
 1. Install Prometheus and Grafana to your K8s cluster
@@ -83,9 +85,9 @@ Configure and apply CI/CD (including deployment) pipeline using any platforms (G
 
 > Note. You can imagine something different and set up monitoring (eg. memory usage, CPU time, ...)
 
-### 9. Document your project 
+### 9. Document your project
 
-Write a sort of report in the `README.md` file which includes the following:
+Write a report in the `README.md` file which includes the following:
 
 1. List all the work performed (briefly, describing features and bonus tasks).
 
@@ -97,12 +99,12 @@ Write a sort of report in the `README.md` file which includes the following:
   - Install (or prepare environment)
   - Use (your application, run your Docker container or Docker Compose cluster, on K8s cluster, ...)
   - Test (your application)
-  
+
 4. All the necessary links with the platforms and tools integrated:
   - Heroku
   - Docker Hub
   - ...
-  
+
 5. Author
 
 6. Other additional info that you want to include...
@@ -144,13 +146,13 @@ List of bonus tasks proposed:
   - more different unit/functional/integration tests
   - using another database (like MongoDB, MySQL, ...)
   - integrate a documenting package to your source code, for example, [Swagger UI](https://www.npmjs.com/package/express-swagger-generator)
-4. Any Kubernetes tasks from [this list](https://kubernetes.io/docs/tasks/). 
-5. [Securing microservice communication](https://istio.io/latest/docs/tasks/security/) or with Istio 
-6. Etc. 
+4. Any Kubernetes tasks from [this list](https://kubernetes.io/docs/tasks/).
+5. [Securing microservice communication](https://istio.io/latest/docs/tasks/security/) or with Istio
+6. Etc.
 
 ## How to send a project for evaluation?
 
-1. **ATTENTION!** Make sure your repository is **PRIVATE** and **you have sent an invitation** to teacher's GitHub account - https://github.com/sergkudinov. Otherwise, **if it isn't PRIVATE the final grade will be reduced to 0**.
+1. **ATTENTION!** Make sure your repository is **PRIVATE** and **you have sent an invitation** to teacher's GitHub account - https://github.com/sergkudinov. Otherwise, **if it isn't PRIVATE the final grade will be reduced to 0**. You can make it public once it is graded.
 
 2. After you have sent the invitation, send an email to [sergei@adaltas.com](mailto:sergei@adaltas.com) containing the following:
 
