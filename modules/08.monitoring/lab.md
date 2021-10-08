@@ -6,8 +6,8 @@ The goal of this lab is to use Prometheus with Istio to record metrics that trac
 ## Objectives
 
 1. Quickstart with Istio
-2. Route requests
-3. Traffic shifting (canary rollout)
+2. Install and use Prometheus
+3. Install and use Grafana
 
 ## Before starting
 
